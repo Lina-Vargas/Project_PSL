@@ -12,7 +12,9 @@
     </div>
   </nav>
 <?php 
-echo base_url()."assets/css/materialize.css";?>
+	echo 'Current PHP version: '. phpversion();
+
+	echo base_url()."assets/css/materialize.css";?>
 </body>
 
 
