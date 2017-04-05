@@ -1,10 +1,11 @@
 language: php
-php: 
-  - '7.1'
-  - hhvm
-  - nightly
+
+php:
+  - 7.1
+
 
 script:
+  - cd application/tests
   - phpunit 
 os:
   - Windows
