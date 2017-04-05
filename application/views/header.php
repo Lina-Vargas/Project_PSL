@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>SALÓN DE EVENTOS ZAFIRO</title>
-	<script type="text/javascript" href="http://localhost/Project_PSL/assets/js/materialize.js"></script>
-	<script type="text/javascript" href="http://localhost/Project_PSL/assets/js/materialize.min"></script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title><?php echo $titulo; ?></title>
+
 	<link rel="stylesheet" type="text/css" href="http://localhost/Project_PSL/assets/css/materialize.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="http://localhost/Project_PSL/assets/css/materialize.min" media="screen" />
+
 </head>

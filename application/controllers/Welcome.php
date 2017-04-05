@@ -18,27 +18,30 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function mainView()
+	public function Inicio()
 	{
-		$this->load->view('header');
+		$datos = array('titulo' => "Zafiro");
+		//$data['encabezado'] = "Menú";
+		$this->load->view('header', $datos);
 		$this->load->view('Principal');
 		$this->load->view('footer');
 	}
 
 	public function iniciarSesion()
 	{
-		
-		$this->load->view('header');
+		$datos = array('titulo' => "Inicio  Sesión");
+		$this->load->view('header', $datos);
 		$this->load->view('InicioSesion');
 		$this->load->view('footer');
 	}
 
 	public function registrarUsuario()
 	{
-		$this->load->view('header');
+		$datos = array('titulo' => "Registro");
+		$this->load->view('header', $datos);
 		$this->load->view('Registro');
 		$this->load->view('footer');
 	}
-
+	
 
 }

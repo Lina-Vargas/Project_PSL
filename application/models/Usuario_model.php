@@ -80,7 +80,7 @@ class Usuario_Model extends CI_Model
 		return $this->clave;
 	}
     
-    public function establecerCalve($pass)
+    public function establecerClave($pass)
     {
 		$this->clave=$clave;
 	}
