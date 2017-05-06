@@ -1,4 +1,4 @@
-<footer class="#2196f3 blue page-footer">
+<footer class="#1a237e blue nav-wrapper">
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
@@ -23,5 +23,7 @@
             </div>
           </div>
         </footer>
+  </div>
+</body>        
 
 </html>
